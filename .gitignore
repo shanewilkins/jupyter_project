@@ -4,6 +4,12 @@ secret_key.txt
 # jupyter notebook checkpoints
 /notebooks/.ipynb_checkpoints/
 
+# ignore the data directory
+/data/
+
+# ignore sqlite databases
+*.sqlite3
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
